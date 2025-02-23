@@ -14,6 +14,8 @@ pnpm dev
 bun dev
 ```
 
+
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
@@ -34,3 +36,18 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Get Your OpenAI API Key
+
+To use the OpenAI features in this project, you need to obtain your own OpenAI API Key. Follow these steps:
+
+1. Go to the [OpenAI website](https://openai.com/) and sign up for an account.
+2. Once you have an account, navigate to the API section to generate your API Key.
+3. Create a `.env` file in the root of your project if it doesn't exist.
+4. Add your API Key to the `.env` file like this:
+
+```
+OPENAI_API_KEY=your_api_key_here
+```
+
+Make sure to replace `OPENAI_API_KEY` with your actual API Key.
