@@ -50,4 +50,4 @@ To use the OpenAI features in this project, you need to obtain your own OpenAI A
 OPENAI_API_KEY=your_api_key_here
 ```
 
-Make sure to replace `OPENAI_API_KEY` with your actual API Key.
+Make sure to replace `your_api_key_here` with your actual API Key.
